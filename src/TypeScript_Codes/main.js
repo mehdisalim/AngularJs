@@ -26,5 +26,5 @@ var func2 = function (sum) { return sum.x + sum.y; };
 console.log(func2({ x: "1", y: 9 }));
 var func3 = function (sum) { return sum.x + sum.y; };
 console.log(func3({ x: 3, y: 6 }));
-var func4 = function (sumInterface) { return sumInterface.x + sumInterface.y; };
-console.log(func4({ x: 3, y: 10 }));
+var func4 = function (sum) { return sum.x + sum.y; };
+console.log(func4({ x: 6, y: 10 }));

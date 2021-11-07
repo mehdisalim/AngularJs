@@ -36,5 +36,12 @@ interface sumInterface {
   x:number,
   y:number
 }
-let func4 = (sumInterface) => sumInterface.x+sumInterface.y;
-console.log(func4({x:3,y:10}))
+let func4 = (sum:sumInterface) => sum.x+sum.y;
+console.log(func4({x:6,y:10}))
+
+export class main{
+  num:number = 12431;
+  function(message:string){
+    console.log(message)
+  }
+}

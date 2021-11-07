@@ -1,0 +1,14 @@
+<h2>{{inputContent}}</h2>
+<ul>
+  <li *ngFor="let name of listOfNames">
+    <a href="#">{{name}}</a>
+  </li>
+</ul>
+<br>
+<!-- [style.backgroundColor]="isActive ? 'blue' : 'red'" -->
+
+<form #f="ngForm">
+  <input class="input-group-sm" [(ngModel)]="inputContent" name="emSail">
+</form>
+<br>
+<button class="btn btn-outline-success" (click)="onClicked()">Success</button>
